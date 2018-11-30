@@ -2,68 +2,68 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="41694" started-at="2018-11-30T06:39:35Z" finished-at="2018-11-30T06:40:17Z">
+  <suite name="Default suite" duration-ms="66625" started-at="2018-11-30T06:51:29Z" finished-at="2018-11-30T06:52:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="41694" started-at="2018-11-30T06:39:35Z" finished-at="2018-11-30T06:40:17Z">
+    <test name="Default test" duration-ms="66625" started-at="2018-11-30T06:51:29Z" finished-at="2018-11-30T06:52:36Z">
       <class name="Naukri_mav.Naukri_Mav_Testng.naukri_test">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:Naukri_mav.Naukri_Mav_Testng.naukri_test@31fa1761]" name="beforeSuite" is-config="true" duration-ms="22" started-at="2018-11-30T06:39:35Z" finished-at="2018-11-30T06:39:35Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:Naukri_mav.Naukri_Mav_Testng.naukri_test@31fa1761]" name="beforeSuite" is-config="true" duration-ms="23" started-at="2018-11-30T06:51:29Z" finished-at="2018-11-30T06:51:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Naukri_mav.Naukri_Mav_Testng.naukri_test@31fa1761]" name="beforeTest" is-config="true" duration-ms="2" started-at="2018-11-30T06:39:35Z" finished-at="2018-11-30T06:39:35Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Naukri_mav.Naukri_Mav_Testng.naukri_test@31fa1761]" name="beforeTest" is-config="true" duration-ms="1" started-at="2018-11-30T06:51:29Z" finished-at="2018-11-30T06:51:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Naukri_mav.Naukri_Mav_Testng.naukri_test@31fa1761]" name="beforeClass" is-config="true" duration-ms="1" started-at="2018-11-30T06:39:35Z" finished-at="2018-11-30T06:39:35Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Naukri_mav.Naukri_Mav_Testng.naukri_test@31fa1761]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-11-30T06:51:29Z" finished-at="2018-11-30T06:51:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Naukri_mav.Naukri_Mav_Testng.naukri_test@31fa1761]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-11-30T06:39:35Z" finished-at="2018-11-30T06:39:35Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Naukri_mav.Naukri_Mav_Testng.naukri_test@31fa1761]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-11-30T06:51:29Z" finished-at="2018-11-30T06:51:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="open()[pri:1, instance:Naukri_mav.Naukri_Mav_Testng.naukri_test@31fa1761]" name="open" duration-ms="6265" started-at="2018-11-30T06:39:35Z" finished-at="2018-11-30T06:39:41Z">
+        <test-method status="PASS" signature="open()[pri:1, instance:Naukri_mav.Naukri_Mav_Testng.naukri_test@31fa1761]" name="open" duration-ms="33989" started-at="2018-11-30T06:51:29Z" finished-at="2018-11-30T06:52:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Naukri_mav.Naukri_Mav_Testng.naukri_test@31fa1761]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-11-30T06:39:41Z" finished-at="2018-11-30T06:39:41Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Naukri_mav.Naukri_Mav_Testng.naukri_test@31fa1761]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-11-30T06:52:03Z" finished-at="2018-11-30T06:52:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="loginnaukri()[pri:2, instance:Naukri_mav.Naukri_Mav_Testng.naukri_test@31fa1761]" name="loginnaukri" duration-ms="34875" started-at="2018-11-30T06:39:41Z" finished-at="2018-11-30T06:40:16Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Naukri_mav.Naukri_Mav_Testng.naukri_test@31fa1761]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-30T06:52:03Z" finished-at="2018-11-30T06:52:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginnaukri()[pri:2, instance:Naukri_mav.Naukri_Mav_Testng.naukri_test@31fa1761]" name="loginnaukri" duration-ms="32126" started-at="2018-11-30T06:52:03Z" finished-at="2018-11-30T06:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginnaukri -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Naukri_mav.Naukri_Mav_Testng.naukri_test@31fa1761]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-30T06:39:41Z" finished-at="2018-11-30T06:39:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Naukri_mav.Naukri_Mav_Testng.naukri_test@31fa1761]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-11-30T06:40:16Z" finished-at="2018-11-30T06:40:16Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Naukri_mav.Naukri_Mav_Testng.naukri_test@31fa1761]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-11-30T06:52:36Z" finished-at="2018-11-30T06:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Naukri_mav.Naukri_Mav_Testng.naukri_test@31fa1761]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-30T06:40:16Z" finished-at="2018-11-30T06:40:16Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Naukri_mav.Naukri_Mav_Testng.naukri_test@31fa1761]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-30T06:52:36Z" finished-at="2018-11-30T06:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="editpref()[pri:3, instance:Naukri_mav.Naukri_Mav_Testng.naukri_test@31fa1761]" name="editpref" duration-ms="498" started-at="2018-11-30T06:40:16Z" finished-at="2018-11-30T06:40:17Z">
+        <test-method status="PASS" signature="editpref()[pri:3, instance:Naukri_mav.Naukri_Mav_Testng.naukri_test@31fa1761]" name="editpref" duration-ms="456" started-at="2018-11-30T06:52:36Z" finished-at="2018-11-30T06:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editpref -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Naukri_mav.Naukri_Mav_Testng.naukri_test@31fa1761]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-11-30T06:40:17Z" finished-at="2018-11-30T06:40:17Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Naukri_mav.Naukri_Mav_Testng.naukri_test@31fa1761]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-11-30T06:52:36Z" finished-at="2018-11-30T06:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:Naukri_mav.Naukri_Mav_Testng.naukri_test@31fa1761]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-11-30T06:40:17Z" finished-at="2018-11-30T06:40:17Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Naukri_mav.Naukri_Mav_Testng.naukri_test@31fa1761]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-11-30T06:52:36Z" finished-at="2018-11-30T06:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:Naukri_mav.Naukri_Mav_Testng.naukri_test@31fa1761]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-11-30T06:40:17Z" finished-at="2018-11-30T06:40:17Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Naukri_mav.Naukri_Mav_Testng.naukri_test@31fa1761]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-11-30T06:52:36Z" finished-at="2018-11-30T06:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Naukri_mav.Naukri_Mav_Testng.naukri_test@31fa1761]" name="afterSuite" is-config="true" duration-ms="1" started-at="2018-11-30T06:40:17Z" finished-at="2018-11-30T06:40:17Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Naukri_mav.Naukri_Mav_Testng.naukri_test@31fa1761]" name="afterSuite" is-config="true" duration-ms="2" started-at="2018-11-30T06:52:36Z" finished-at="2018-11-30T06:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
