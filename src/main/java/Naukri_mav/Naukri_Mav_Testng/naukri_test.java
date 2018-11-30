@@ -45,25 +45,33 @@ public class naukri_test {
 	@Test (priority =2)
   public void loginnaukri() {
 	  
-		d.findElement(By.xpath("//*[@id=\"block\"]")).click();
+		d.findElement(By.xpath("//*[@id=\"block\"]")).click(); //to click location pop up setting to later
 		d.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+		
 		Set<String> wins=	d.getWindowHandles();  //return list of windows
 		System.out.println(wins.size());
+		String basewind="";
 		for(String win : wins ) //: iterator 
 		{
 		  	d.switchTo().window(win);
 		  	String title  = d.getTitle();
 		  	System.out.println(title);
 		  	
-		  	/*if (title.startsWith("Job"))
+		 	if (title.startsWith("Job"))
 		  	{
-		  		
+		 		basewind = win;
 		  	}
 		  	else 
-		  		d.close();*/
+		  		d.close();
 		}
+		d.switchTo().window(basewind);
+		d.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 		
 	  d.findElement(By.linkText("LOGIN")).click();
+	  
+		//d.findElement(By.xpath("//*[@id=\"login_Layer\"]/div")).click();
+		//d.findElement(By.cssSelector("#login_Layer > div")).click();
+		
 		d.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 		d.findElement(By.xpath("//*[@id=\"eLoginNew\"]")).sendKeys("sethi.arvinderpal@gmail.com");
 		d.findElement(By.xpath("//*[@id=\"pLogin\"]")).sendKeys("Welcome@987");
@@ -83,7 +91,7 @@ public class naukri_test {
 		    d.findElement(By.linkText("Recommended Jobs")).click();
 		    d.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 		    //d.findElement(By.xpath("/html/body/div[2]/div/ul[2]/li[2]/div/ul[1]/li[2]/a")).click();
-		    d.findElement(By.cssSelector("#root > div > div > span > div > div > div > div > div.wrapper > div > div.row > div.col.s4.pr0 > div:nth-child(1) > div > div")).click();
+		    //d.findElement(By.cssSelector("#root > div > div > span > div > div > div > div > div.wrapper > div > div.row > div.col.s4.pr0 > div:nth-child(1) > div > div")).click();
 		
 			}
   

@@ -9,7 +9,6 @@
           <include name="beforeTest"/>
           <include name="afterMethod"/>
           <include name="beforeMethod"/>
-          <include name="loginnaukri"/>
           <include name="beforeSuite"/>
           <include name="afterSuite"/>
           <include name="afterTest"/>
