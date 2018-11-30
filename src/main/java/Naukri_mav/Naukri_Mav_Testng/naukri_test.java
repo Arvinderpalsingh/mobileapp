@@ -2,6 +2,7 @@ package Naukri_mav.Naukri_Mav_Testng;
 
 
 import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
